@@ -1,0 +1,40 @@
+// optimization done
+body
+ background url(http://flau.me/img/bg.png)
+
+.container
+  position relative
+  overflow hidden
+  margin 0 auto
+  margin-bottom 0
+  padding 3em 40px 3em
+  max-width 940px
+
+  .blog
+    position relative
+    float right
+    width 79%
+    margin-left 1%
+    margin-bottom 4.5em
+    min-height 250px
+    border-right 1px solid #ddd
+    border-left 1px solid #ddd
+    box-shadow 1px 2px 3px #888
+    background-color #fff
+    
+header[role="banner"]
+  float left
+  width 70%
+  min-height 120px
+  margin-bottom 3em
+
+@media (min-width: 961px)
+  .container
+    max-width 1240px
+    min-width 1100px
+    .blog 
+      width 79%
+      margin-left 0
+
+  header[role="banner"]
+    width 20%
