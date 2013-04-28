@@ -3,7 +3,7 @@
 Execute the following command and modify `theme` in `_config.yml` to `pithiness`.
 
 ```
-git clone git://github.com/okoala/hexo-theme-pithiness.git
+git clone https://github.com/focuslau/hexo_theme_myself.git
 ```
 
 ## 更新 Update
@@ -11,13 +11,19 @@ git clone git://github.com/okoala/hexo-theme-pithiness.git
 Execute the following command to update pithiness.
 
 ```
-cd themes/pithiness
+cd themes/myself
 git pull
+```
+
+## 配置 Congifuration
+
+```
+theme: myself
 ```
 
 ## 效果图 Effect diagram
 
-![](http://ww3.sinaimg.cn/large/a74ecc4cjw1e2ne9rb3nuj.jpg)
+![](https://raw.github.com/focuslau/hexo_theme_myself/master/screenshot.png)
 
 ## 特性 Feature
 
