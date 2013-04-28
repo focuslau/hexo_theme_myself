@@ -18,7 +18,7 @@ git pull
 ## 配置 Congifuration
 
 ```
-theme: light
+theme: myself
 ```
 
 ## 效果图 Effect diagram
