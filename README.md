@@ -3,7 +3,7 @@
 Execute the following command and modify `theme` in `_config.yml` to `pithiness`.
 
 ```
-git clone git://github.com/okoala/hexo-theme-pithiness.git
+git clone https://github.com/focuslau/hexo_theme_myself.git
 ```
 
 ## 更新 Update
