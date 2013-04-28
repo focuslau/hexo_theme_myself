@@ -11,8 +11,14 @@ git clone https://github.com/focuslau/hexo_theme_myself.git
 Execute the following command to update pithiness.
 
 ```
-cd themes/pithiness
+cd themes/myself
 git pull
+```
+
+## 配置 Congifuration
+
+```
+theme: light
 ```
 
 ## 效果图 Effect diagram
