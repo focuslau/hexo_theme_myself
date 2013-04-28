@@ -16,7 +16,7 @@
     
     <div class="clearfix"></div>
     <% if (index){ %>
-      <div class="alignleft widget">
+      <div class="alignleft">
         <% if (item.comment && config.disqus_shortname){ %>
           <a href="<%- item.permalink %>#disqus_thread" class="comment-link">Comments</a>
         <% } %>
@@ -32,7 +32,7 @@
         </div>
       <% } %>
     <% } else { %>
-      <div class="widget">
+      <div class="alignleft">
         <% if (item.layout != 'page'){ %>
           <time datetime="<%= item.date.toDate().toISOString() %>"><a href="<%- config.root %><%- item.path %>"><%= item.date.format(config.date_format) %></a></time>
         <% } %>
