@@ -17,7 +17,7 @@ git pull
 
 ## 效果图 Effect diagram
 
-![](http://ww3.sinaimg.cn/large/a74ecc4cjw1e2ne9rb3nuj.jpg)
+![](https://raw.github.com/focuslau/hexo_theme_myself/master/screenshot.png)
 
 ## 特性 Feature
 
