@@ -2,6 +2,15 @@
 body
  background url(http://flau.me/img/bg.png)
 
+div[role="about"]
+  ul li
+   list-style none
+  ul li a
+   color rgba(0, 0, 0, 0.949219)
+   font-size 12px
+   font-style normal
+   font-weight bold
+
 .container
   position relative
   overflow hidden
@@ -13,8 +22,8 @@ body
   .blog
     position relative
     float right
-    width 79%
-    margin-left 1%
+    width 77%
+    margin-left 0
     margin-bottom 4.5em
     min-height 250px
     border-right 1px solid #ddd
@@ -24,9 +33,15 @@ body
     
 header[role="banner"]
   float left
-  width 70%
+  width 22%
   min-height 120px
-  margin-bottom 3em
+  margin-bottom 1em
+  .branding 
+  .widget 
+  .about
+  .menu-navigation-container
+    padding-left 10px
+    padding-right 10px
 
 @media (min-width: 961px)
   .container
@@ -38,3 +53,9 @@ header[role="banner"]
 
   header[role="banner"]
     width 20%
+    .branding 
+    .widget 
+    .about
+    .menu-navigation-container
+      padding-left 20px
+      padding-right 20px
